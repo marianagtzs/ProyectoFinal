@@ -16,9 +16,9 @@ function MealDetailScreen({ route, navigation }) {
         affordability={selectedMeal.affordability}
       />
       <View>
-        <Text style={styles.subtitle}>Ingredients</Text>
+        <Text style={styles.subtitle}>Ingredientes</Text>
         {selectedMeal.ingredients.map(ingredient => <Text style={styles.textContent} key={ingredient}>{ingredient}</Text>)}
-        <Text style={styles.subtitle}>Steps</Text>
+        <Text style={styles.subtitle}>Pasos</Text>
         {selectedMeal.steps.map(step => <Text style={styles.textContent} key={step}>{step}</Text>)}
       </View>
     </ScrollView>

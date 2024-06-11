@@ -17,17 +17,17 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
-              headerStyle: { backgroundColor: '#987070'},
+              headerStyle: { backgroundColor: '#676767'},
               headerTintColor: 'white',
-              contentStyle: { backgroundColor: '#F1E5D1'}
+              contentStyle: { backgroundColor: '#ededed'}
           }}
         >
           <Stack.Screen 
-            name="MealsCategories" 
+            name="Recetas" 
             component={CategoriesScreen}
           />
           <Stack.Screen 
-            name="MealsOverview" 
+            name="RecetasDescripciónGeneral" 
             component={MealsOverviewScreen}
             options={{
               title: 'All categories',
@@ -36,7 +36,7 @@ export default function App() {
             }} 
           />
           <Stack.Screen 
-            name="MealDetail" 
+            name="Detalles" 
             component={MealDetailScree} 
           />
 

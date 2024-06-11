@@ -2,13 +2,13 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Tacos', '#f5428d'),
-  new Category('c2', 'Enchiladas', '#f54242'),
-  new Category('c3', 'Tamales', '#f5a442'),
-  new Category('c4', 'Quesadillas', '#f5d142'),
-  new Category('c5', 'Pozole', '#368dff'),
-  new Category('c6', 'Chiles en Nogada', '#41d95d'),
-  new Category('c7', 'Mole', '#9eecff'),
+  new Category('c1', 'Tacos', '#999999'),
+  new Category('c2', 'Enchiladas', '#999999'),
+  new Category('c3', 'Tamales', '#999999'),
+  new Category('c4', 'Quesadillas', '#999999'),
+  new Category('c5', 'Pozole', '#999999'),
+  new Category('c6', 'Chiles en Nogada', '#999999'),
+  new Category('c7', 'Mole', '#999999'),
 ];
 
 export const MEALS = [
@@ -21,7 +21,7 @@ export const MEALS = [
     'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tacos-al-Pastor.jpg/800px-Tacos-al-Pastor.jpg',
     20,
     [
-      'Carne de puerco',
+      'Carne adobada',
       'Piña',
       'Cebollas',
       'Cilantro',
